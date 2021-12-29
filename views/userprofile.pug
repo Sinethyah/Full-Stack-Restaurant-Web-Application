@@ -1,0 +1,32 @@
+html 
+    head
+    title User Profile  
+
+body 
+
+    if status==true
+        p You are logged in 
+    |
+    |
+
+    include ./ordersummary.pug 
+    |
+    
+    if status==true
+       
+        h3 Private Mode
+        br
+
+        input(type="radio" name="btn" id="onbtn" value="true")
+        label(for="on") On 
+
+        input(type="radio" name="btn" id="offbtn" value="false")
+        label(for="off") Off
+
+        button(type="submit" id="submit" onclick="savePrivacy()") Submit
+
+    
+    
+
+    script(src="../client.js")
+    

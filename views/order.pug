@@ -1,0 +1,31 @@
+html 
+    head 
+    title 
+
+body 
+
+    include ./home.pug 
+    | 
+    |
+    p Customer Name: !{customername}
+    |
+    |
+    p Restaurant Name:!{restName}
+    |
+    |
+    p Subtotal: $!{subtotal}
+    |
+    |
+    p Tax: $!{tax}
+    |
+    |
+    p Delivery Fee: $!{delivery_fee}
+    |
+    |
+    p Total: $!{total}
+    |
+    |
+    p Items 
+    each item in items 
+        p Quantity: !{item.quantity}    Item: !{item.name}
+        br

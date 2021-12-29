@@ -1,0 +1,19 @@
+html 
+    head 
+    title 
+
+body 
+
+    include ./home.pug
+
+    br
+    br
+    h3 List of Users 
+    br
+
+    
+    each user in users
+        a(href="/users/" + user["_id"]) #{user.username}
+        br
+ 
+        

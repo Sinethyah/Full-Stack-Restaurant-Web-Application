@@ -1,0 +1,21 @@
+html 
+    head 
+    title
+
+body 
+
+    include ./home.pug
+
+    if present=='true'
+        a(style={color: 'red'}) User already exists. Type new credentials
+
+    form(action="/users" method="post")
+        label(for='username') Username:
+        input(type="text" name="username" required)
+        label(for='password') Password:
+        input(type="text" name="password" required)
+        button(type="submit") Register
+
+    script(src="/user-router.js")
+
+    

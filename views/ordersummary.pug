@@ -1,0 +1,19 @@
+html 
+
+    head 
+    title 
+
+body 
+
+    include ./home.pug 
+    |
+    |
+    h3 Profile for !{particularUser}
+    br 
+    h3 Order History
+
+    if orders
+        each order in orders
+            if order.username == particularUser
+                a(href="/orders/" + order["_id"]) !{order["_id"]}
+                br

@@ -1,1 +1,37 @@
+html 
+    head 
+    title 
+
+body 
+
+    h3 Welcome to the Restaurant Page 
+
+    a(href="/") Home 
+    |
+    |
+    a(href="/users") Users 
+    |
+    |
+    
+
+
+    if status==true
+        a(style={color: 'red'}) Hello !{username}!
+
+        a(href="/orderform") Order Food
+        |
+        |
+        a(href="/users/" + id) Your profile
+        |
+        |
+        a(href="/logout") Logout
+
+    else 
+        a(href="/register") Register
+        |
+        a(href="/login") Login 
+
+
+
+
 

@@ -1,0 +1,13 @@
+html 
+    head 
+
+body 
+
+    include ./home.pug
+    
+    form(action="/" method="post")
+        label(for='username') Username:
+        input(type="text" name="username" required)
+        label(for='password') Password:
+        input(type="text" name="password" required)
+        button(type="submit") Login
