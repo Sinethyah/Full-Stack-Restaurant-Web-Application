@@ -10,7 +10,7 @@ To run the server:
     type the following commands:
     a. 'mkdir database' and hit enter and
     b. 'mongod --dbpath=database'
-3. In the second terminal, move to the assignment folder dir and type 
+3. In the second terminal, move to the project folder dir and type 
     a. mongo 
 4. In the visual studio terminal, type 
     a. 'npm install' to install all dependencies
