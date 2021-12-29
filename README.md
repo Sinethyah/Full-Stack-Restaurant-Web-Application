@@ -1,5 +1,7 @@
 #Full Stack Restaurant Web Application
 
+This is a full stack web application for a restaurant
+
 Author: Kaniz Sinethyah
 
 To run the server:
