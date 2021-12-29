@@ -1,5 +1,5 @@
 Author: Kaniz Sinethyah
-Student ID: 101194698
+
 
 To run the server:
 1. Require 2 command prompt terminals
@@ -13,6 +13,7 @@ To run the server:
     a. 'npm install' to install all dependencies
     b. 'node database-initializer.js'
     c. 'node server.js'
+5. The server runs at localhost:3000
 
 This will run the server 
 
@@ -27,8 +28,7 @@ The a4 database contains:
 
 Another database: 'session_test' stores the session data 
 3. It has 'mySessions' collection
-
---app listens at localhost:3000 
+ 
 
 
 Files and their functions:
