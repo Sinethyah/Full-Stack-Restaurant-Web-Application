@@ -41,6 +41,7 @@ deals with order information
 8. users.pug renders all the non-private users
 9. home.pug page renders the home page 
 10. client.js has a function to deal with the put request (privacy change)
+11. add.png and remove.png adds and removes items respectively.
 
 
 
