@@ -8,13 +8,19 @@ To run the server:
 1. Require 2 command prompt terminals
 2. In first command prompt terminal, first move to the directory where the project folder is located, then
     type the following commands:
+    
     a. 'mkdir database' and hit enter and
+    
     b. 'mongod --dbpath=database'
+    
 3. In the second terminal, move to the project folder dir and type 
     a. mongo 
 4. In the visual studio terminal, type 
+
     a. 'npm install' to install all dependencies
+    
     b. 'node database-initializer.js'
+    
     c. 'node server.js'
 
 This will run the server at localhost:3000
